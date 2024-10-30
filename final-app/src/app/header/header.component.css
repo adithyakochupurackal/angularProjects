@@ -1,0 +1,32 @@
+/* Navigation Bar Styles */
+nav {
+    background-color: #333; /* Dark background for the nav */
+    padding: 10px 0; /* Vertical padding */
+  }
+  
+  /* Navigation List Styles */
+  .nav-list {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the nav items */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Navigation Item Styles */
+  .nav-list li {
+    margin: 0 15px; /* Space between the nav items */
+  }
+  
+  /* Navigation Link Styles */
+  .nav-list a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.1em; /* Font size for links */
+    transition: color 0.3s ease; /* Transition for hover effect */
+  }
+  
+  .nav-list a:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+  

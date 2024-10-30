@@ -1,0 +1,14 @@
+<div class="user-profile">
+    <h1>User Profile</h1>
+    
+    <p><strong>Name:</strong> {{ user.name }}</p>
+    
+    <p><strong>Birthdate:</strong> {{ user.birthdate | date:'fullDate' }}</p>
+    
+    <p><strong>Email:</strong> {{ user.email }}</p>
+    
+    <p><strong>Balance:</strong> {{ user.balance | currency:'USD':'symbol':'1.2-2' }}</p>
+    
+    <p><strong>Interests:</strong> {{ user.interests | joinWith:',' }}</p>
+  </div>
+  
